@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>String Matcher</h1>
+        
+       
+        <label for="inputString">Enter a String:</label>
+        <input type="text" id="inputString" placeholder="Type your string here">
+        <button onclick="checkStrings()">Check</button>
+
+        <div class="results">
+            <div id="resultAstar">
+                <h2>a*</h2>
+                <p id="resultAstarText">Result: </p>
+            </div>
+            <div id="resultAsteriskBplus">
+                <h2>a*b+</h2>
+                <p id="resultAsteriskBplusText">Result: </p>
+            </div>
+            <div id="resultAbb">
+                <h2>abb</h2>
+                <p id="resultAbbText">Result: </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
